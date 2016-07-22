@@ -17,7 +17,7 @@
          */
         //Arreglo multidimensional 
         $directorio = array(
-      array("Nombre"=>"David Martinez", "direccion"=>"Carrera 26 A N 4A-63",
+      array("Nombre"=>"David Martinez", "direccion"=>"Carrera 29 A N 4A-63",
           "Telefono"=>"3208499843","Aniversario"=>"17-Abril","colorFavorito"=>"rojo"),
       array("Nombre"=>"Pablo Manrique", "direccion"=>"calle 23 # 56-45",
           "Telefono"=>"3321567","Aniversario"=>"12-Diciembre","colorFavorito"=>"verde"),
@@ -26,7 +26,7 @@
           "Telefono"=>"3102405452","Aniversario"=>"15-agosto","colorFavorito"=>"morado"));
         //arreglo para el significado
         function colorFavorito ($colorBuscado){
-        $colorSignificado= array(array("color"=>"verde","sig"=>"esperanza"),array("color" => "morado","sig" => "n"));
+        $colorSignificado= array(array("color"=>"verde","sig"=>"esperanza"),array("color" => "morado","sig" => "luto"));
         foreach ($colorSignificado as $colorSignificado) { if ($colorSignificado['color']==$colorBuscado) {return $colorSignificado ['sig'];} else
         {
             return "no se encuentra significado";
